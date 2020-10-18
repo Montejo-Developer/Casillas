@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Casillas2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Reproducir Musica</string>
+    <string name="title_activity_settings">Reproducir Musica</string>
+
+    <string name="action_settings2">Parar Musica</string>
+    <string name="title_activity_settings2">Parar Musica</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_colores">Colores</string>
+    <string name="pref_description_colores">Elige si quieres que aparecezcan colores
+    </string>
+
+
+    <string name="pref_musica">Elige la musica que quieres</string>
+    <string-array name="pref_music_descript">
+        <item>musica1</item>
+        <item>musica2</item>
+        <item>musica3</item>
+    </string-array>
+
+    <string-array name="pref_music_descript_values">
+        <item>musica1</item>
+        <item>musica2</item>
+        <item>musica3</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+
+    <string-array name="list_colores_numeros">
+        <item>Numeros</item>
+        <item>Colores</item>
+    </string-array>
+
+    <string-array name="list_colores_numeros_values">
+        <item>numeros</item>
+        <item>colores</item>
+    </string-array>
+
+    <string-array name="list_pref_elements">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="list_pref_traza">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Esto es para la informacion del creador-->
+    <string name="index_creador">Quienes somos</string>
+    <string name="contenido_creador">
+        Creada en Francia en 1954, Fnaco es la primera desarolladora en Europa de productos tecnológicos
+        y culturales, y constituye un ejemplo único de alianza entre comercio, cultura y tecnología.
+        Literatura, música, cine, videojuegos, imagen, sonido y nuevas tecnologías convergen en un
+        lugar de compra, asesoramiento, descubrimiento y encuentro.</string>
+
+    <!-- Esto es para la informacion del tutorial-->
+    <string name="inedex_tutorial">Como se juega</string>
+    <string name="about_text">
+  <![CDATA[
+    Author: Your name<br/><br/>Your description text, changelog, licences etc... ]]>
+    </string>
+
+
+    <string name="contenido_tutorial">
+        A lo largo del curso vamos a desarrollar un programa/juego basado en unas casillas, las
+cuáles deberemos conseguir que sean todas iguales para finalizar la partida. El juego,
+pues, constará de una serie de NxM celdas (donde la N y la M serán configuradas en
+una pantalla inicial) y finalizará cuando todas las celdas tengan el mismo valor. El
+usuario podrá pulsar sobre dichas celdas y estas cambiarán su valor de manera cíclica,
+es decir, si tienen el valor 1 pasarán al 2, si tienen el 2 pasarán al 3 y si tienen el valor 3
+pasarán al 1 (esto suponiendo que hemos configurado el programa para que pueda haber
+un máximo de 3 valores diferentes).
+Evidentemente, si el juego consistiese en cambiar solo el valor de la celda sobre la que
+pulsamos sería demasiado fácil, por eso no solo cambiaremos el valor de esta, sino
+también las de sus celdas anexas, de la siguiente manera:
+• Si la celda esta posicionada en una posición central, cambiarán también sus celdas
+adyacentes (arriba, abajo, izquierda y derecha). En total cambiarán 5 celdas, la
+pulsada y esas 4.
+• Si la celda esta posicionada en un lateral, cambiarán también las celdas adyacentes
+(pero en este caso son solamente 3 porque al estar en un lateral hay una casilla que
+falta). Entiéndase que lateral puede ser la fila más arriba, la de más abajo, la de la
+izquierda o la de la derecha.
+• Si la celda esta justo en uno de las cuatro esquinas, las celdas que cambiarán serán
+las 3 que la rodean (este es el único caso donde también cambia una celda que esta
+en oblicua con esta)
+
+    </string>
+    <string name="title_activity_game_field">GameField</string>
+    <string name="title_activity_mapa">Map</string>
+
+</resources>

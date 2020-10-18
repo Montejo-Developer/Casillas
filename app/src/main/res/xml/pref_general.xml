@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="3"
+        android:entries="@array/list_pref_elements"
+        android:entryValues="@array/list_pref_elements"
+        android:key="element_X"
+        android:title="Elementos en el eje X" />
+
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="3"
+        android:entries="@array/list_pref_elements"
+        android:entryValues="@array/list_pref_elements"
+        android:key="element_Y"
+        android:title="Elementos en el eje Y" />
+
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="3"
+        android:entries="@array/list_pref_traza"
+        android:entryValues="@array/list_pref_traza"
+        android:key="element_trama"
+        android:title="Maximo elementos de trama" />
+
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/list_colores_numeros"
+        android:entryValues="@array/list_colores_numeros_values"
+        android:key="list_color_num"
+        android:title="colores/numeros" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="ck_vib"
+        android:title="Vibrating" />
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="ck_son"
+        android:title="Sound" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_music_descript"
+        android:entryValues="@array/pref_music_descript_values"
+        android:key="example_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_musica" />
+    <EditTextPreference
+        android:defaultValue="Invitado"
+        android:key="usuario"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Nombre usuario" />
+
+
+</PreferenceScreen>
